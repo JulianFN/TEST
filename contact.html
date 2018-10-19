@@ -1,0 +1,185 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Applied Aeronautical Systems Inc.</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="commonCSS.css" rel="stylesheet" type="text/css">
+    <link href="contact.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        body,
+        td,
+        th {
+            font-family: Verdana, Geneva, sans-serif;
+        }
+
+    </style>
+    <meta name="Keywords" content="AASI contact">
+</head>
+
+<body>
+    <h2 style="margin-top: 3%;">
+        <center>Contact Us At</center>
+    </h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div id="text" class="container">
+                    <div id="text" class="container">
+                        <p> You can fill out the following formasdfsadfdsafsdaf
+                        </p>
+                        <h4><strong>Applied Aeronautical Systems Inc.</strong></h4>
+                        <h5>215 Redfern Avenue, Suite 212</h5>
+                        <h5>Westmount, QC, H3Z 3L5 Canada</h5><br>
+
+                        <h5> <strong>Phone us at - </strong>(519) 934-0656</h5>
+                        <h5> <strong>Email us at - </strong> info@aasi.com</h5>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div id="form" class="container" style="width: 100%">
+                    <h2></h2>
+                    <form action="">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name..">
+
+                        <label for="Organization">Organization or Company (leave empty if not applicable)</label>
+                        <input type="text" id="organization" name="Organization" placeholder="Your Organization or Company..">
+
+                        <label for="Email">Email Address</label>
+                        <input type="text" id="organization" name="Organization" placeholder="Email..">
+
+                        <label for="cat">Category</label>
+                        <select id="cat" name="cat">
+                        <option value="none"></option>
+                        <optgroup label="Products">
+                            <option value="AROPS MP">AROPS MP</option>
+                            <option value="AROPS ATO">AROPS ATO </option>
+                            <option value="PPAS">PPAS</option>
+                            <option value="PPAS">VCIPLAN</option>
+                        </optgroup>
+                        <optgroup label="Services">
+                            <option value="Aero">Aerodynamic and Performance Training</option>
+                            <option value="Operational">Operational Efficiency Assessment</option>
+                            <option value="Product">Product Training</option>
+                        </optgroup>
+                        <option value="other">Other</option>
+                    </select>
+
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" style="height:200px"></textarea>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> 
+          </button>
+                <a class="navbar-brand" href="home.html"><img src="Images/AASI Logo.png" width="20%" href="index.html"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about">ABOUT US</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <button onclick="dropDown()" class="dropbtn">PRODUCTS
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                            <div id="productList" class="dropdown-content">
+                                <a href="#home">AROPS ATO</a>
+                                <a href="AROPSMP.html">AROPS MP</a>
+                                <a href="#contact">PPAS</a>
+                                <a href="#contact">VCIPLAN</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <footer class="container-fluid bg-primary text-center">
+        <div class="col-sm-6">
+            <h4>Contact Us</h4>
+            <p>At our email<br> address<br>whatever else is needed</p>
+        </div>
+        <div class="col-sm-">
+            <h4>Links</h4>
+            <a href="home.html" style="color: white"><u>Home</u></a><br>
+            <a href="home.html#products" style="color: white"><u>Products</u></a><br>
+            <a style="color: white"><u>Services</u></a>
+        </div><br>
+        <p class="text-center">Copyright ©2018 Applied Aeronautical Systems Inc.</p>
+    </footer>
+
+</body>
+
+<script>
+    $("img", "#gifs-rows").hover(function() {
+        $('.preset-file').toggle();
+        $('.gif-file').toggle();
+    });
+    /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+    //document.getElementById("Features").click();
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+    }
+
+    function dropDown() {
+        document.getElementById("productList").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+        if (event.target.matches('.DemoButton')) {
+            document.location.href = '/demoMP.html';
+        }
+    }
+
+    function opentab(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+</script>

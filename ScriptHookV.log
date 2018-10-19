@@ -1,0 +1,212 @@
+// GTA V SCRIPT HOOK (build Jul 27 2018, v1.0.1493.0)
+//     (C) Alexander Blade 2015-2018
+[16:50:59] INIT: Started
+[16:50:59] INIT: Success, game version is VER_1_0_1493_0_STEAM
+[16:50:59] INIT: Registering script 'EnhancedNativeTrainer.asi' (0x00007FFB302ED1C0)
+[16:51:00] INIT: Registering script 'NativeTrainer.asi' (0x00007FFB4C71A3C0)
+[16:51:00] INIT: Registering script 'ScriptHookVDotNet.asi' (0x00007FFB6A811380)
+[16:51:06] INIT: Pool 1 extended
+[16:51:06] INIT: Pool 2 extended
+[16:51:06] INIT: Pool 3 extended
+[16:51:06] INIT: Pool 4 extended
+[16:51:12] INIT: GtaThread collection size 189
+[16:51:12] INIT: wnd proc 0x00000000FFFF0653
+[16:51:12] INIT: IDXGISwapChain 0x00007FFB716BEC80 (0x00007FFB71655070)
+[16:51:12] INIT: IDXGISwapChain set
+[16:51:12] INIT: DX init started
+[16:51:12] INIT: DX feature level B000
+[16:51:12] INIT: DX init succeeded
+[16:51:55] CORE: Requesting thread creation
+[16:51:55] CORE: Creating threads
+[16:51:55] CORE: Started control thread, id 29 active 1
+[16:51:55] CORE: Started thread 'EnhancedNativeTrainer.asi' (0x00007FFB302ED1C0), id 30 active 1
+[16:51:55] CORE: Started thread 'NativeTrainer.asi' (0x00007FFB4C71A3C0), id 31 active 1
+[16:51:55] CORE: Started thread 'ScriptHookVDotNet.asi' (0x00007FFB6A811380), id 32 active 1
+[16:51:55] CORE: Launching main() for 'EnhancedNativeTrainer.asi' (0x00007FFB302ED1C0), id 30
+[16:51:55] CORE: Launching main() for 'NativeTrainer.asi' (0x00007FFB4C71A3C0), id 31
+[16:51:55] CORE: Launching main() for 'ScriptHookVDotNet.asi' (0x00007FFB6A811380), id 32
+[16:51:56] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_AIRTUG.png', id 0
+[16:51:56] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_AMBULANCE.png', id 1
+[16:51:56] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_ARMYTANKER.png', id 2
+[16:51:56] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_ARMYTRAILER.png', id 3
+[16:51:56] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_ARMYTRAILER2.png', id 4
+[16:51:56] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_ASEA_SNOW.png', id 5
+[16:51:56] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_BAGGER.png', id 6
+[16:51:56] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_BALETRAILER.png', id 7
+[16:51:56] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_BALLER_SMALL.png', id 8
+[16:51:56] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_BARRACKS2.png', id 9
+[16:51:56] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_BENSON.png', id 10
+[16:51:56] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_BIFF.png', id 11
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_BISON2.png', id 12
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_BISON3.png', id 13
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_BJXL.png', id 14
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_LIFEGUARD.png', id 15
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_BLIMP.png', id 16
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_BLIMP2.png', id 17
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_BLISTA.png', id 18
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_BOATTRAILER.png', id 19
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_BOXVILLE.png', id 20
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_BOXVILLE2.png', id 21
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_BOXVILLE3.png', id 22
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_MONKEY_BLISTA.png', id 23
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_ROOSEVELT.png', id 24
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_BUCCANEER.png', id 25
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_BURRITO.png', id 26
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_BURRITO2.png', id 27
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_BURRITO3.png', id 28
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_BURRITO4.png', id 29
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_BURRITO5.png', id 30
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_BUZZARD2.png', id 31
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_CABLECAR.png', id 32
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_CADDY.png', id 33
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_CADDY2.png', id 34
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_CAMPER.png', id 35
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_CARGOBOB2.png', id 36
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_CARGOBOB3.png', id 37
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_CUTTER.png', id 38
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_CARGO.png', id 39
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_DAEMON.png', id 40
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_DILET_LIVERY.png', id 41
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_DINGHY.png', id 42
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_DINGHY2.png', id 43
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_DOCKHANDLER.png', id 44
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_DOCKTRAILER.png', id 45
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_DOCKTUG.png', id 46
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_DOZER.png', id 47
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_DUNELOADER.png', id 48
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_DUBSTA.png', id 49
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_DUBSTA_BLACK.png', id 50
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_DUKES.png', id 51
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_SPACEDOCKER.png', id 52
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_EMPEROR.png', id 53
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_EMPEROR_RUSTY.png', id 54
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_EMPEROR_SNOW.png', id 55
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_FBI.png', id 56
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_FBI2.png', id 57
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_FIRETRUK.png', id 58
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_FIXTER.png', id 59
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_FLATBED.png', id 60
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_FORKLIFT.png', id 61
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_FQ2.png', id 62
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_FREIGHT.png', id 63
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_FREIGHTCAR.png', id 64
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_FREIGHTCONT1.png', id 65
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_FREIGHTCONT2.png', id 66
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_FREIGHTGRAIN.png', id 67
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_FREIGHTTRAILER.png', id 68
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_FROGGER2.png', id 69
+[16:51:57] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_FUTO.png', id 70
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_GBURRITO.png', id 71
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_GRAINTRAILER.png', id 72
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_GRANGER.png', id 73
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_GUARDIAN.png', id 74
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_HABANERO.png', id 75
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_HAULER.png', id 76
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_JET.png', id 77
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_LAZER.png', id 78
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_LECTRO.png', id 79
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_LGUARD.png', id 80
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_MANANA.png', id 81
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_MESA_SNOW.png', id 82
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_METROTRAIN.png', id 83
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_MIXER.png', id 84
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_MIXER2.png', id 85
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_MOWER.png', id 86
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_MULE2.png', id 87
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_ORACLE2.png', id 88
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_PACKER.png', id 89
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_PATRIOT.png', id 90
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_PEYOTE.png', id 91
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_PHANTOM.png', id 92
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_PHOENIX.png', id 93
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_POLICE.png', id 94
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_POLICE2.png', id 95
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_POLICE3.png', id 96
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_POLICE4.png', id 97
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_POLICEB.png', id 98
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_POLICEOLD1.png', id 99
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_POLICEOLD2.png', id 100
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_POLICET.png', id 101
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_POLMAV.png', id 102
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_PONY.png', id 103
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_PONY2.png', id 104
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_POUNDER.png', id 105
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_PRAIRIE.png', id 106
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_PRANGER.png', id 107
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_PREDATOR.png', id 108
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_PROPTRAILER.png', id 109
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_RAKETRAILER.png', id 110
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_RANCHERXL_SNOW.png', id 111
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_RIOT.png', id 112
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_RIPLEY.png', id 113
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_HEARSE.png', id 114
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_RUINER.png', id 115
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_RUBBLE.png', id 116
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_RUMPO2.png', id 117
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_SABRE.png', id 118
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_SADLER_SNOW.png', id 119
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_SCRAP.png', id 120
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_SEASHARK2.png', id 121
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_SENTINEL.png', id 122
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_SERRANO.png', id 123
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_SHERIFF.png', id 124
+[16:51:58] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_SHERIFF2.png', id 125
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_SKYLIFT.png', id 126
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_SLAMVAN_LOSTMC.png', id 127
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_SPEEDO.png', id 128
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_SPEEDO2.png', id 129
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_STOCKADE.png', id 130
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_STOCKADE3.png', id 131
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_SUB.png', id 132
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_SULTAN.png', id 133
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_SURFER2.png', id 134
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_TACO.png', id 135
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_TANKER.png', id 136
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_TANKER2.png', id 137
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_TANKERCAR.png', id 138
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_TAXI.png', id 139
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_TIPTRUCK.png', id 140
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_TIPTRUCK2.png', id 141
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_TORNADO.png', id 142
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_TORNADO_CAB.png', id 143
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_TORNADO_RUSTY.png', id 144
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_TORNADO_CAB_RUSTY.png', id 145
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_TOURBUS.png', id 146
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_TOWTRUCK.png', id 147
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_TOWTRUCK2.png', id 148
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_TR2.png', id 149
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_TR3.png', id 150
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_TR4.png', id 151
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_TRACTOR.png', id 152
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_TRACTOR2.png', id 153
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_TRACTOR3.png', id 154
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_TRAILERLOGS.png', id 155
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_TRAILERS.png', id 156
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_TRAILERS2.png', id 157
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_TRAILERS3.png', id 158
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_TRAILERSMALL.png', id 159
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_TRASH.png', id 160
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_TRASH2.png', id 161
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_TRFLAT.png', id 162
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_TVTRAILER.png', id 163
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_UTILLITRUCK.png', id 164
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_UTILLITRUCK2.png', id 165
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_UTILLITRUCK3.png', id 166
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_VOODOO.png', id 167
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_BALLER5.png', id 168
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_BALLER6.png', id 169
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_SCHAFTER2.png', id 170
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_SCHAFTER3.png', id 171
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_SCHAFTER4.png', id 172
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_SCHAFTER5.png', id 173
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_SCHAFTER6.png', id 174
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_MOONBEAM.png', id 175
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_COGNOSCENTI2.png', id 176
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_COG552.png', id 177
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_VIRGO3.png', id 178
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_FACTION.png', id 179
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_HAULER2.png', id 180
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_INSURGENT3.png', id 181
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_PHANTOM3.png', id 182
+[16:51:59] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_TECHNICAL3.png', id 183
+[16:52:00] CORE: Creating texture 'C:\Users\JULIAN~1\AppData\Local\Temp\GTAV Enhanced Native Trainer\VP_CLIFFHANGER.png', id 184

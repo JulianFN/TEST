@@ -1,0 +1,298 @@
+@charset "UTF-8";
+body {
+	margin: 0;
+}
+body, td, th {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 90%;
+	color: #000;
+	line-height: 1.7;
+	text-align: left;
+}
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 
+	padding-right: 15px;
+	padding-left: 15px; 
+}
+a img { 
+	border: none;
+}
+a:link {
+	color: #42413C;
+	text-decoration: underline; 
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { 
+	text-decoration: none;
+}
+.container {
+	width: 860px;
+	height: 100%;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: -4em;
+	margin-left: auto;
+	background-repeat: repeat-y;
+}
+.letterhead {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	background-image: url(Images/bluebar.png);
+	background-repeat: repeat-x;
+}
+.header {
+	width: 100%;
+	margin-right: auto;
+	margin-left: 15%;
+	clear: both;
+}
+.middle {
+	position: fixed;
+	top: 117px;
+	bottom: 60px;
+	width: 100%;
+
+}
+.content {
+	width: 662px;
+	float: right;
+	height: 100%;
+	overflow: auto;
+	margin-top: 6px;
+}
+/* ~~ This grouped selector gives the lists in the .content area space ~~ */
+.content ul, .content ol {
+	padding: 0 15px 15px 40px; /* this padding mirrors the right padding in the headings and paragraph rule above. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
+}
+/* ~~ The navigation list styles (can be removed if you choose to use a premade flyout menu like Spry) ~~ */
+ul.nav {
+	list-style: none; /* this removes the list marker */
+	border-top: 1px solid #666; /* this creates the top border for the links - all others are placed using a bottom border on the LI */
+	margin-bottom: 15px; /* this creates the space between the navigation on the content below */
+}
+ul.nav li {
+	border-bottom: 1px solid #666; /* this creates the button separation */
+}
+ul.nav a, ul.nav a:visited { /* grouping these selectors makes sure that your links retain their button look even after being visited */
+	padding: 5px 5px 5px 5px;
+	display: block; /* this gives the link block properties causing it to fill the whole LI containing it. This causes the entire area to react to a mouse click. */
+	width: 180px;  /*this width makes the entire button clickable for IE6. If you don't need to support IE6, it can be removed. Calculate the proper width by subtracting the padding on this link from the width of your sidebar container. */
+	text-decoration: none;
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background and text color for both mouse and keyboard navigators */
+	color: #FFF;
+	background-color: #97530A;
+}
+/* ~~ The footer ~~ */
+.footer {
+	position: fixed;/* this gives IE6 hasLayout to properly clear */
+	bottom: 0px;
+	width: 100%;
+	clear: both; /* this clear property forces the .container to understand where the columns end and contain them */
+	/* [disabled]width: 100%;
+*/
+	text-align: center;
+	background-image: url(Images/brownbar.png);
+	background-repeat: repeat-x;
+	padding: 0px;
+	height: auto;
+	margin-top: 20px;
+}
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+#logoController {
+	margin-top: 15px;
+	margin-bottom: 10px;
+	margin-left: 17px;
+}
+.leftnav {
+	clear: both;
+	float: left;
+	width: 190px;
+	height: 100%;
+}
+
+#header {
+    position: fixed;
+	top: 0px;
+	width: 100%;
+	background-image: url(Images/bluebar.png);
+	background-repeat: repeat-x;
+}
+.pageTitle {
+	background-color: #D7D1CA;
+	width: 100%;
+	text-align: left;
+	text-indent: 15px;
+	font-size: x-large;
+	font-weight: normal;
+	padding-top: 10px;
+	color: #97530A;
+	text-shadow: 1px 1px 2px #777;
+	letter-spacing: 0.05em;
+	z-index: 1025;
+}
+.sidebar1 {
+	width: 100%;
+	height: 100%;
+	background-image: url(Images/gradient%20white.png);
+	padding-top: 35px;
+	
+}
+#horizMenu {
+	height: 33px;
+	width: 860px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: -4px;
+	clear: both;
+}
+#wrapFooterText {
+	width: 800px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#topRtContact {
+	float: right;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: large;
+	margin-top: 20px;
+	text-decoration: underline;
+	color: #00C;
+	text-align: right;
+}
+.article-image {
+	float: right;
+	margin-left: 15px;
+	margin-top: 8px;
+}
+.indent {
+	line-height: 0.6em;
+	text-decoration: none;
+	text-indent: 15px;
+	/* [disabled]white-space: pre;
+*/
+	font-size: small;
+}
+.siteHeader {
+	line-height: .5em;
+	color: #C08954;
+	text-decoration: underline;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: medium;
+	padding-bottom: 0px;
+	padding-top: 15px;
+}
+.siteMapColLeft {
+	float: left;
+	width: 300px;
+	height: auto;
+	/* [disabled]padding-top: 20px;
+*/
+	padding-right: 0px;
+	padding-bottom: 20px;
+	padding-left: 100px;
+}
+.siteMapColRight {
+	float: left;
+	width: 300px;
+	height: auto;
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 20px;
+	padding-left: 100px;
+}
+
+
+/****************************************
+Product box
+*****************************************/
+.productBox {
+	float: left;
+	height: 202px;
+	width: 202px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#productsPage .container .content #compareTable thead tr th {
+	text-align: center;
+	font-size: 1em;
+	font-weight: normal;
+}
+#productsPage .container .content #compareTable tbody tr td {
+	text-align: right;
+	padding-right: 10px;
+	color: #97530A;
+	font-size: medium;
+}
+ul.MenuBarHorizontal
+{
+	padding-top: 8px;
+	list-style-type: none;
+	font-size: 75%;
+	cursor: default;
+	width: auto;
+	margin: 0;
+	margin-left: -2.2em;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+ul.MenuBarHorizontal li
+{
+	list-style-type: none;
+	font-size: 120%;
+	position: relative;
+	text-align: center;
+	cursor: pointer;
+	float: left;
+	padding-top: 0px;
+	padding-right: 1.5em;
+	padding-bottom: 0;
+	padding-left: 2.5em;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: -0.8em;
+}
+ul.MenuBarHorizontal a
+{
+	display: block;
+	cursor: pointer;
+	color: #FFF;
+	text-decoration: none;
+	padding-top: 0.2em;
+	padding-right: 1.5em;
+	padding-bottom: 0.2em;
+	padding-left: 1.5em;
+	margin-top: 6px;
+	margin-bottom: 8px;
+}
+ul.MenuBarHorizontal a:hover, ul.MenuBarHorizontal a:focus
+{
+	background-color: #97530A;
+	color: #FF;
+}

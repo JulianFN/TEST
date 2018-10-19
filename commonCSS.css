@@ -1,0 +1,285 @@
+/*
+* Colors
+*/
+.bg-logoblue{
+    background-color: #004DA4;
+}
+
+.bg-plane {
+    background-color: #5080A8;
+}
+
+.jumbotron {
+    background-image: url(Images/sky.jpg);
+    color: #EE3B32;
+    /*background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center
+    height: 50%*/
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+footer {
+    margin-top: 3%;
+}
+
+#gifs-rows img {
+    cursor: pointer;
+}
+
+#gifs-rows .gif-file {
+    display: none;
+}
+
+.col-sm-3 {
+    background-color: white;
+ 
+    transition: 0.3s;
+}
+
+.col-sm-3:hover{
+    background-color: lightgray;
+    opacity: 1;
+}
+#singleFeature {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#ProductText {
+    margin-right: 3%;
+    margin-left: 45%
+}
+.DemoButton {
+    background-color: silver;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-bottom: 6%;
+    margin-top: 2%;
+    opacity: 0.8;
+    transition: 1s;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.DemoButton:hover {
+    opacity: 1;
+}
+
+.productsJumbotron {
+    background-image: url(Images/sky.jpg);
+    color: black;
+}
+
+
+.container-fluid {
+    padding-top: 1%
+}
+
+.title {
+    padding-top: 6%;
+    padding-bottom: 2%;
+    color: silver;
+}
+
+.carousel-indicators li {
+    background-color: silver;
+}
+
+.carousel-caption {
+    color: white;
+    font-weight: bolder;
+}
+
+/* TABS on pages*/
+
+.collapsible {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: yes;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.active,
+.collapsible:hover {
+    background-color: lightgray;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    font-size: 20;
+    background-color: #f1f1f1;
+}
+
+.collapsible:after {
+    content: '\002B';
+    color: red;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.collapsible.active:after {
+    content: "\2212";
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+
+.tabcontent {
+    display: none;
+    padding: 1px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    padding-bottom: 40px;
+}
+
+#motto {
+    padding-top: 3%;
+    line-height: .8
+}
+
+.grey {
+    background-color: #f6f6f6;
+}
+
+.logo {
+    font-size: 200px;
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: silver;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a,
+.navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.dropbtn {
+    background-color: silver;
+    border-color: black;
+    color: white !important;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    letter-spacing: 4px;
+    cursor: pointer;
+}
+
+.dropbtn {
+    background-color: inherit;
+    color: silver;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: silver;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: white;
+    color: #f4511e !important;
+}
+
+.show {
+    display: block;
+}
