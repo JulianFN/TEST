@@ -204,6 +204,8 @@ footer {
     }
 }
 
+/* NAV BAR STUFF */
+
 .navbar {
     margin-bottom: 0;
     background-color: silver;
@@ -352,6 +354,7 @@ section {
 
 body {
   background-size: cover;
+  padding-top: 40px;
 }
  
 .come-in {
