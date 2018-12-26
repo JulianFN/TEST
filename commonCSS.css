@@ -1,7 +1,8 @@
 /*
 * Colors
 */
-.bg-logoblue{
+
+.bg-logoblue {
     background-color: #004DA4;
 }
 
@@ -36,14 +37,15 @@ footer {
 
 .col-sm-3 {
     background-color: white;
- 
+
     transition: 0.3s;
 }
 
-.col-sm-3:hover{
+.col-sm-3:hover {
     background-color: lightgray;
     opacity: 1;
 }
+
 #singleFeature {
     margin-right: 10%;
     margin-left: 10%;
@@ -55,6 +57,7 @@ footer {
     margin-right: 3%;
     margin-left: 45%
 }
+
 .DemoButton {
     background-color: silver;
     border: none;
@@ -82,7 +85,8 @@ footer {
 
 
 .container-fluid {
-    padding-top: 1%
+    padding-top: 1%;
+    overflow: hidden;
 }
 
 .title {
@@ -282,4 +286,86 @@ footer {
 
 .show {
     display: block;
+}
+
+/* Cards  */
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 40%;
+    margin-bottom: 2%;
+    margin-top:2%      
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.span4 p {
+    min-width: 10px;
+    max-width: 500px;
+}
+.span4 img {
+    margin-right: 10px;
+}
+
+.span4 .img-left {
+    float: left;
+}
+
+.span4 .img-right {
+    float: right;
+}
+
+@import "compass/css3";
+
+* {
+  @include box-sizing(border-box); 
+}
+
+section {
+  background: #eee;
+  margin: 0 auto;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.module {
+  min-height: 200px;
+  background: white;
+  position: relative;
+  float: left;
+  padding: 20px;
+  margin-right: 4%;
+  margin-bottom: 4%;
+  &:nth-child(even) {
+    margin-right: 0;
+  }
+  box-shadow: 0 1px 3px rgba(black, 0.2);
+}
+
+body {
+  background-size: cover;
+}
+ 
+.come-in {
+  transform: translateY(150px);
+  animation: come-in 0.8s ease forwards;
+}
+.come-in:nth-child(odd) {
+  animation-duration: 0.6s;
+}
+.already-visible {
+  transform: translateY(0);
+  animation: none;
+}
+
+@keyframes come-in {
+  to { transform: translateY(0); }
 }
